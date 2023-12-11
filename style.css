@@ -1,0 +1,334 @@
+/*.............................header css starts.........................*/
+#hed .navbar{
+	background:#fff;
+}
+#hed .navbar-brand{
+	font-size:2.5rem;
+	font-family: "Kaushan Script", cursive;
+	color:#7a6960
+}
+#hed .active{
+	color: #1fd9ee !important;
+	font-weight:600;
+}
+#hed .active:hover{
+	color: #1fd9ee !important;
+	font-weight:600;
+}
+#hed .nav-name{
+    color: #000;
+	font-weight:600;
+}
+#hed .nav-name:hover{
+	color:#1fd9ee;
+}
+#hed .nav-link{
+	color:#000;
+}
+#hed .nav-link:hover{
+	color:#1fd9ee;
+}
+#hed span{
+	color:white;
+}
+
+@media(min-width:360px){
+	#hed span{
+		display:flex;
+		justify-content:center;
+	}
+}
+/*.........................header css ends................................*/
+  .banner{
+	margin-top: 3rem;
+	padding: 60px;
+  }
+.left{
+	margin-top:7rem ;
+	padding: 10px 50px;
+}
+.left p{
+	font-size: 1.5rem;
+}
+.left h1{
+	font-weight: 700;
+	color: rgba(0,0,0,.9);
+}
+.left h2{
+	color:#1fd9ee;
+	font-size:2rem;
+	font-weight: 700;
+	text-shadow: 3px 3px 4px #00000061
+}
+.left iconify-icon{
+	font-size: 2rem;
+	padding: 0px 15px ;
+}
+.left iconify-icon:hover{
+
+	color:#65c58a;
+	
+}
+
+.right img{
+	width: 350px;
+	height: 420px;
+	border: 10px solid gray;
+	border-top-right-radius: 30%;
+	border-bottom-left-radius: 50%;
+	background-image: radial-gradient(circle, hwb(95 18% 59% / 0.822), #43cbcf42,white);
+
+}
+
+/*..............about section.....................*/
+.about{
+	 padding-top:5rem;
+	 padding-bottom:1rem;
+	background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+}
+.section-title{
+	position:relative;
+	padding:30px 0;
+}
+.section-title span {
+    position: absolute;
+    top: 30px;
+    color: #eef0f2;
+    left: 0;
+    right: 0;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height:0;
+}
+.section-title h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #3b434a;
+    position: relative;
+}
+.res-but a{
+	text-decoration:none;
+	background: #1fd9ee;
+	border-color: #1fd9ee;
+    width: 150px;
+    border-radius: 30px 30px 30px 30px;
+    color: #fff;
+    padding: 10px 20px;
+	border:none;
+}
+
+.res-but a:hover{
+	background-color:#1fd9eecc;
+    border-color:#1fd9eecc;
+	color:#fff;
+}
+#abt .row p{
+	font-weight: 500;
+    color: #ab9d95;
+	text-indent:7rem;
+	text-align:justify;
+	margin-bottom:2rem;
+}
+#abt li{
+	margin-bottom: 20px;
+    align-items: center;
+}
+#abt .bi{
+	color: #ffb727;
+}
+
+.abb li{
+	list-style: none;
+}
+
+
+
+/*skill start*/
+.small img{
+	width: 80%;
+
+}
+
+.skill{
+	    margin-bottom: 106px;
+    margin-top: 69px;
+	padding: 10px;
+}
+.skill h1{
+	text-align: center;
+}
+/*skill end*/
+
+/*what start
+.what{
+	background-color: aliceblue;
+	height: 600px;
+	width: 100%;
+	padding: 5rem 0px;
+
+}
+.what h1{
+	text-align: center;
+	font-weight:bolder;
+}
+.wha iconify-icon{
+
+	font-size: 40px;
+	color: red;
+	
+}
+.wha{
+	text-align: center;
+	background-color: #fff;
+	height:200px;
+	width: 450px;
+	border: 2px solid black;
+	
+	margin: 5px;
+}
+
+/*what end*/
+.service{
+	padding-top: 5rem;
+	padding-bottom: 1rem;
+	    background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+           height: 600px;
+	}
+.can h1{
+	font-size: 3rem;
+	padding-bottom: 3rem;
+}
+.icon iconify-icon{
+	display: flex;
+	justify-content: center;
+	font-size: 2rem;
+	padding: 10px;
+	color:#39d8ea99;
+
+}
+.what{
+	background-color: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+       height: 61px;
+    width: 33.3%;
+	
+}
+
+.card{
+	width:33%;
+}
+
+.what:hover{
+    transform:in;
+}
+
+.ser-body p{
+	color:#AB9D95;
+}
+.card:hover{
+	
+    box-shadow: 0 0 10px #39d8ea99;
+}
+.card:hover iconify-icon{
+	color: #7a6960;
+}
+
+
+
+/*what end*/
+
+/*port-foilo start*/
+
+.portfoilo{
+	background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+	width: 100%;
+	height:auto;
+	    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+.port-head h1{
+	font-size: 2rem;
+	text-align:center;
+	font-weight: bold;
+	margin-bottom: 2rem;
+}
+.port-head h3{
+	color:#eb5d1e;
+	text-align: center;
+	font-weight: bold;
+	
+}
+.butsss a{
+	text-decoration: none;
+	width: 100px;
+	height: auto;
+	padding: 10px;
+	background-color: #1fd9ee;
+	margin-bottom: 2rem;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.portis img:hover{
+	transform:scale(1.1);
+
+}
+
+/*port-foilo end*/
+
+
+/*contact start*/
+.contact{
+	    background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+    padding: 5rem 3rem;
+
+}
+.conte h1{
+      font-weight: bold;
+
+}
+.con {
+	text-decoration: none;
+}
+.con i{
+	
+	color: #000;
+}
+.con-icon{
+	height: 65px;
+	width: 65px;
+	font-size: 30px;
+	border-radius: 50%;
+	text-align: center;
+	justify-content: center;
+	border:  3px dotted #1fd9ee;
+	align-items: center;
+	display: flex;
+	margin: auto;
+}
+.con h3{
+	color:#eb5d1e;
+	    padding: 10px;
+}
+.con h3:hover{
+	color:#1fd9ee;
+}
+.con i:hover{
+	color: #7a6960;
+}
+.con-icon:hover{
+	border-color:black;
+}
+/*contact end*/
+
+/*footer start*/
+.foot{
+	background-color: #000;
+	width:80%;
+	height: auto;
+
+}
+.foot-iconss{
+	color:#1fd9ee;
+}
+
+/*footer end*/
